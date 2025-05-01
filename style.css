@@ -1,0 +1,139 @@
+/* -------------- All Styling -------------- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+html {
+  background-color: rgba(250, 235, 215, 0.562);
+}
+
+/* -------------- font styling -------------- */
+h2 {
+  display: block;
+  font-size: 40px;
+  margin: 20px;
+  width: 450px;
+}
+h3 {
+  font-size: 25px;
+  margin: 20px;
+}
+h4 {
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+  margin: 10px;
+  border-bottom: 2px solid black;
+}
+p {
+  font-size: 18px;
+  margin: 15px;
+}
+#about-header {
+  font-weight: bold;
+  font-size: 40px;
+  margin: 10px;
+}
+
+/* -------------- header style -------------- */
+nav {
+  box-shadow: 0 0 12px -2px black;
+  position: fixed;
+  left: 0;
+  right: 0;
+  align-items: center;
+  background-color: black;
+  color: antiquewhite;
+  display: flex;
+  height: 80px;
+  padding: 10px;
+  justify-content: space-between;
+}
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
+#links {
+  font-size: x-large;
+}
+a {
+  color: antiquewhite;
+}
+a:hover {
+  color: white;
+  margin: 5px;
+}
+
+/* -------------- header style -------------- */
+nav {
+  box-shadow: 0 0 12px -2px black;
+  position: fixed;
+  left: 0;
+  right: 0;
+  align-items: center;
+  background-color: black;
+  color: antiquewhite;
+  display: flex;
+  height: 80px;
+  padding: 10px;
+  justify-content: space-between;
+}
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
+#links {
+  font-size: x-large;
+}
+a {
+  color: antiquewhite;
+}
+a:hover {
+  color: white;
+  margin: 5px;
+}
+
+/* -------------- main style -------------- */
+main {
+  background-color: antiquewhite;
+  padding: 85px 24px 96px;
+  box-shadow: 0 0 12px -2px black;
+  min-height: 100vh;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* -------------- img style -------------- */
+#self {
+  height: 300px;
+  float: right;
+  margin: 10px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* -------------- home style -------------- */
+#home {
+  font-weight: 600;
+}
+
+/* -------------- footer style -------------- */
+footer {
+  background-color: black;
+  height: 70px;
+  padding: 10px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 0 12px -2px black;
+}
+.img {
+  width: 50px;
+}
