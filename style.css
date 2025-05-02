@@ -59,36 +59,7 @@ div {
 a {
   color: antiquewhite;
 }
-a:hover {
-  color: white;
-  margin: 5px;
-}
-
-/* -------------- header style -------------- */
-nav {
-  box-shadow: 0 0 12px -2px black;
-  position: fixed;
-  left: 0;
-  right: 0;
-  align-items: center;
-  background-color: black;
-  color: antiquewhite;
-  display: flex;
-  height: 80px;
-  padding: 10px;
-  justify-content: space-between;
-}
-div {
-  display: block;
-  unicode-bidi: isolate;
-}
-#links {
-  font-size: x-large;
-}
-a {
-  color: antiquewhite;
-}
-a:hover {
+#links a:hover {
   color: white;
   margin: 5px;
 }
@@ -105,10 +76,9 @@ main {
 
 /* -------------- img style -------------- */
 #self {
-  height: 300px;
-  float: right;
-  margin: 10px;
+  height: 350px;
 }
+
 .container {
   display: flex;
   flex-direction: column;
@@ -116,9 +86,51 @@ main {
   width: 100%;
 }
 
+.imgLink {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 100%;
+}
+
+a:hover {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
 /* -------------- home style -------------- */
 #home {
-  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+}
+
+.text-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* -------------- Section Styling -------------- */
+.hobbies {
+  border-top: 2px solid black;
+  font-size: 16px;
+}
+
+/* -------------- about img styling -------------- */
+.hobbies:nth-of-type(2n + 1) > img {
+  float: right;
+  margin: 0 24px 24px 24px;
+}
+.hobbies:nth-of-type(2n) img {
+  float: left;
+  margin: 0 24px 24px 0;
+}
+.hobbies:nth-of-type(2n + 1) > img {
+  float: right;
+  margin: 0 24px 24px 24px;
 }
 
 /* -------------- footer style -------------- */
